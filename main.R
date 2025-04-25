@@ -18,11 +18,20 @@ library(glue) # for good looking message writing!
 library(patchwork) # putting together plots
 library(sf) # for map-making
 library(rnaturalearth) # map-making
-library(tigris)
-options(tigris_use_cache = TRUE)
+library(tigris) # for sf layers
+options(tigris_use_cache = TRUE) # to save sf layers instead of re-downloading
+library(googlesheets4) # to import concentrations data. Note: requires authorization. In the future, concentration data will be stored with the project
 
 ## 1. Intake data
-data_file = read_csv(here("file","file_name"))
+data_file = read_sheet("https://docs.google.com/spreadsheets/d/1r73-RLY5JXLARDwIof56cgKEzioUuLcAKdD_s3ZkhYU/edit?gid=1804529984#gid=1804529984", sheet = "Table: CA Concentrations") # using gSheets as I work on this online
+data = data_file |>
+  clean_names() |> 
+  select(-c(x9:aim_for))
+
+## what else needs to happen with the data
+## - create factors for visible layers (compound, water type)
+## - normalize continuous data & determine value for NDs
+## - get geolocation data to place on a map
 
 
 ## 2. Create a map of CA
@@ -44,5 +53,10 @@ ca_base_map = ggplot() +
   geom_sf(data=ca_rivers_shp)+
   # geom_sf(data=ca_cities_shp)+
   geom_sf(data=ca_lakes_shp)
+  
+## 3. Insert points on map of CA
+ca_data_map = ca_base_map +
+  geom_point(data=data, aes(x=lon,y=lat, color=concentration, shape=compound))
+  # set visible properties based on water type, concentration, and compound
   
   
