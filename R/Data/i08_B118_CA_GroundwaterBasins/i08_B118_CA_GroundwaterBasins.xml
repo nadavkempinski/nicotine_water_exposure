@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin/>
+                <title>i08_B118_CA_GroundwaterBasins</title>
+                <onlink>https://utility.arcgis.com/usrsvcs/servers/49807a1fbc584631bdf88d9ca71dd083/rest/services/Geoscientific/i08_B118_CA_GroundwaterBasins/MapServer</onlink>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>The dataset is a feature class showing the boundaries of 515 groundwater basins and subbasins as defined by the California Department of Water Resources as last modified by the Basin Boundary Emergency Regulation adopted on October 21, 2015 and subsequent modifications requested through the Basin Boundary Modification Request Process. This data is current as of October 13, 2025. The file is in ESRI geodatabase format and is intended for use with compatible GIS software. Groundwater basins are represented as polygon features and designated on the basis of geological and hydrological conditions - usually the occurrence of alluvial or unconsolidated deposits. When practical, large basins are also subdivided by political boundaries, as in the Central Valley. Basins are named and numbered per the convention of the Department of Water Resources.</abstract>
+            <purpose>Bulletin 118 defines the recognized groundwater basins and subbasins throughout the State of California. The Bulletin 118 document provides information on these basins/subbasins and the nature and extent of groundwater occurrence and management within the State. The Bulletin 118 dataset makes the geographic locations and extent of the 515 basins/subbasins publicly available, for use in external mapping/GIS applications. The associated data are considered DWR enterprise GIS data, which meet all appropriate requirements of the DWR GIS Spatial Data Standards version 3.6, dated September 27, 2023. DWR makes no warranties or guarantees, either expressed or implied, as to the completeness, accuracy or correctness of the data, nor accepts or assumes any liability arising from or for any incorrect, incomplete or misleading subject data. Comments, problems, improvements, updates, or suggestions should be forwarded to gis@water.ca.gov.</purpose>
+        </descript>
+        <spdom>
+            <bounding>
+                <westbc>-124.358773619511</westbc>
+                <eastbc>-114.225690260419</eastbc>
+                <northbc>42.0037614254893</northbc>
+                <southbc>32.5340888621788</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>boundaries</themekey>
+                <themekey>geoscientificInformation</themekey>
+                <themekey>Department of Water Resources</themekey>
+                <themekey>sub-basin</themekey>
+                <themekey>sub basin</themekey>
+                <themekey>Dept. of Water Resources</themekey>
+                <themekey>geology</themekey>
+                <themekey>California</themekey>
+                <themekey>DWR</themekey>
+                <themekey>subbasin</themekey>
+                <themekey>B-118</themekey>
+                <themekey>ground water</themekey>
+                <themekey>aquifers</themekey>
+                <themekey>aquifer</themekey>
+                <themekey>Bulletin 118</themekey>
+                <themekey>hydrogeology</themekey>
+                <themekey>groundwater</themekey>
+                <themekey>B118</themekey>
+                <themekey>basin</themekey>
+                <themekey>DWR GIS Atlas</themekey>
+            </theme>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>The original source projection of the DWR GIS atlas dataset was California Teale Albers, NAD83. For copies of data in original projection, please contact DWR directly.DWR Data Disclaimer: This dataset was developed by the State of California, Department of Water Resources, for uses beneficial to the State. The information is available upon request to interested members of the public. While the Department believes the information to be reliable and made efforts to assure its reliability at the time the information was compiled, the information is provided "as is". The Department is not responsible for the accuracy, completeness, quality or legal sufficiency of the information. Any expressed or implied warranties, including, but not limited to, the implied warranties of merchantability and fitness for purpose ARE SPECIFICALLY DISCLAIMED. Neither the Department nor the State of California shall be held liable for any direct, indirect, incidental, special, exemplary or consequential damages (including, but not limited to: procurement of substitute goods or services; loss of use, data or profits; or business interruption), however caused and on any theory of liability, whether in contract, strict liability or tort, arising in any way out of the use of this information. This disclaimer applies to use of the information alone and to its aggregate use with other information, data or programs. The information contained in each of the basin descriptions at this site was obtained from information on file in the offices of the Department of Water Resources and limited additional information. Recent studies may contain additional, more up-to-date information. To obtain the most up-to-date information about the basin you are interested in, please contact the local management agency listed near the end of the basin description. The State of California and the Department of Water Resources hereby specifically retain any intellectual property interest, including copyright, that they may hold in the information provided, whether the information is in the form of data, files, text images, photography or maps. The Department requests that persons receiving and using this information not make it available to others for their re-use. Instead, interested third parties should be encouraged to contact the Department for copies, in order to ensure that the information is obtained from the source that developed it, that can provide the greatest degree of reliability. Caution: It is possible to plot part or the entire map at a scale that exceeds the 1:250,000 resolution of the map. However, the groundwater basin data can be no more accurate than the 1:250,000 resolution base map on which it was plotted.</useconst>
+        <datacred>California Department of Water Resources</datacred>
+    </idinfo>
+    <metainfo>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>California Department of Water Resources</cntorg>
+                </cntorgp>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>
